@@ -1,0 +1,30 @@
+/* ScAry PTE v6 – independent AI results, neutral graphite palette */
+.ai-result-panel,.ai-setup{border:1px solid #d4dadd;border-radius:20px;background:#f7f9f9;padding:23px;margin:24px 0;color:#243035}
+.ai-result-heading{display:flex;gap:9px;align-items:center;font-size:17px;font-weight:750;margin-bottom:14px}
+.ai-tag{display:inline-flex;align-items:center;border-radius:999px;background:#dfe5e6;color:#39464b;font-size:10px;letter-spacing:.09em;padding:5px 9px;margin-left:auto;font-weight:800}
+.ai-intro,.ai-note,.ai-pending,.ai-error{font-size:13px;line-height:1.7;color:#5b676b;margin:10px 0}
+.ai-pending{padding:13px;border-radius:12px;background:#edf1f2;color:#35444a}
+.ai-error{padding:13px;border-radius:12px;background:#f7ebe8;color:#963d2a;overflow-wrap:anywhere}
+.ai-trait-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin:19px 0}
+.ai-trait{background:#fff;padding:14px;border:1px solid #dce1e3;border-radius:13px}
+.ai-trait small{font-size:11px;color:#617077;display:block;margin-bottom:7px}
+.ai-trait strong{display:block;font-size:23px;letter-spacing:-.04em;color:#243036}
+.ai-track{height:5px;border-radius:999px;background:#e9edef;margin-top:11px;overflow:hidden}
+.ai-track span{display:block;height:100%;border-radius:999px;background:#505e63}
+.ai-word-list{border-top:1px solid #dde3e5;padding-top:14px;margin-top:14px}
+.ai-word-list strong{display:block;font-size:13px;margin-bottom:12px}
+.ai-word-list>div{line-height:2.5}
+.ai-word{display:inline-block;background:#e7eced;border-radius:7px;padding:0 7px;margin:2px;color:#405055;font-size:12px}
+.ai-word.needs-work{background:#f6e8d5;color:#6d4e26}
+.ai-word small{font-size:9px;opacity:.75;margin-left:2px}
+.ai-improve p{font-size:13px;line-height:1.65;margin:7px 0}
+.ai-service-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:13px;margin:16px 0}
+.ai-service-list>div{background:#f3f6f6;border:1px solid #dbe2e3;border-radius:13px;padding:15px}
+.ai-service-list strong{font-size:13px;display:block}
+.ai-service-list span{display:block;margin:5px 0;font-size:11px;font-weight:650}
+.ai-on{color:#42775e}.ai-off{color:#846d52}
+.ai-service-list p{font-size:12px;color:#617077;line-height:1.5;margin:8px 0 0}
+.ai-pin-row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.ai-pin-row input{height:39px;min-width:160px;flex:1;border:1px solid #ced6d8;border-radius:8px;padding:9px 12px;background:white;color:#253036}
+.ai-setup{margin:0}
+@media(max-width:680px){.ai-result-panel,.ai-setup{padding:17px}.ai-trait-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.ai-pin-row .button{flex:1}}

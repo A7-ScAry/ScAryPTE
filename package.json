@@ -1,0 +1,8 @@
+{
+  "name": "scary-pte-v6",
+  "private": true,
+  "version": "6.0.0",
+  "description": "Independent PTE practice with optional server-backed AI services",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" }
+}
